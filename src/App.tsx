@@ -115,12 +115,11 @@ function App() {
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
               Sprzedaj swoją <span className="text-[#D4AF37]">nieruchomość</span>
-              <br />szybko i korzystnie
+              <br />szybko i korzystnie <span className="text-[#D4AF37]">SAMEMU!</span>
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed">
-              Profesjonalna wycena, skuteczna sprzedaż, najlepsza cena. Zaufaj ekspertom z wieloletnim
-              doświadczeniem na rynku nieruchomości w Bydgoszczy.
+              Otrzymaj bezpłatnie pierwsze 10 stron naszego e-booka i poznaj podstawy sprzedaży każdego mieszkania.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -143,21 +142,21 @@ function App() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Co znajdziesz w <span className="text-[#D4AF37]">darmowym poradniku?</span>
+              Co znajdziesz w <span className="text-[#D4AF37]">darmowych 10 stronach poradnika?</span>
             </h2>
-            <p className="text-xl text-gray-300">
-              "Na co uważać przy samodzielnej sprzedaży nieruchomości" - kompleksowy przewodnik po najczęstszych pułapkach
+            <p className="text-xl text-gray-300 font-semibold">
+              Zrób to sam i oszczędź pieniądze!
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="bg-black border border-zinc-800 rounded-xl p-8 hover:border-[#D4AF37]/50 transition-all">
               <div className="w-14 h-14 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center mb-6">
                 <CheckCircle className="w-7 h-7 text-[#D4AF37]" />
               </div>
-              <h3 className="text-xl font-bold mb-4">Wycena nieruchomości</h3>
+              <h3 className="text-xl font-bold mb-4">Jak rzeczywiście ocenić mieszkanie</h3>
               <p className="text-gray-400 leading-relaxed">
-                Dowiedz się jak prawidłowo wycenić swoją nieruchomość, aby nie stracić na transakcji
+                Co poprawić, co zostawić - jak wydobyć z niego jak najwięcej i na co kupujący zwraca uwagę.
               </p>
             </div>
 
@@ -165,29 +164,9 @@ function App() {
               <div className="w-14 h-14 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center mb-6">
                 <Shield className="w-7 h-7 text-[#D4AF37]" />
               </div>
-              <h3 className="text-xl font-bold mb-4">Dokumenty i formalności</h3>
+              <h3 className="text-xl font-bold mb-4">Checklista stanu technicznego mieszkania</h3>
               <p className="text-gray-400 leading-relaxed">
-                Kompletna lista dokumentów i krok po kroku przez wszystkie formalności prawne
-              </p>
-            </div>
-
-            <div className="bg-black border border-zinc-800 rounded-xl p-8 hover:border-[#D4AF37]/50 transition-all">
-              <div className="w-14 h-14 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center mb-6">
-                <TrendingUp className="w-7 h-7 text-[#D4AF37]" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Negocjacje cenowe</h3>
-              <p className="text-gray-400 leading-relaxed">
-                Sprawdzone techniki negocjacyjne, które pomogą Ci uzyskać najlepszą cenę
-              </p>
-            </div>
-
-            <div className="bg-black border border-zinc-800 rounded-xl p-8 hover:border-[#D4AF37]/50 transition-all">
-              <div className="w-14 h-14 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center mb-6">
-                <Award className="w-7 h-7 text-[#D4AF37]" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Przygotowanie nieruchomości</h3>
-              <p className="text-gray-400 leading-relaxed">
-                Jak przygotować mieszkanie lub dom do prezentacji potencjalnym kupującym
+                Cała lista, dzięki której zadbasz o każdy szczegół, który ma znaczenie.
               </p>
             </div>
 
@@ -195,19 +174,9 @@ function App() {
               <div className="w-14 h-14 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center mb-6">
                 <Home className="w-7 h-7 text-[#D4AF37]" />
               </div>
-              <h3 className="text-xl font-bold mb-4">Marketing i ogłoszenia</h3>
+              <h3 className="text-xl font-bold mb-4">Homestaging dla Twojego mieszkania</h3>
               <p className="text-gray-400 leading-relaxed">
-                Jak skutecznie reklamować swoją nieruchomość i dotrzeć do właściwych kupujących
-              </p>
-            </div>
-
-            <div className="bg-black border border-zinc-800 rounded-xl p-8 hover:border-[#D4AF37]/50 transition-all">
-              <div className="w-14 h-14 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center mb-6">
-                <CheckCircle className="w-7 h-7 text-[#D4AF37]" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Pułapki i oszustwa</h3>
-              <p className="text-gray-400 leading-relaxed">
-                Poznaj najczęstsze oszustwa i dowiedz się jak się przed nimi zabezpieczyć
+                Przykłady i opis jak wykorzystać pierwsze wrażenie w sprzedaży nieruchomości (jak najniższym kosztem).
               </p>
             </div>
           </div>
@@ -224,13 +193,11 @@ function App() {
                 </div>
 
                 <h2 className="text-3xl md:text-5xl font-bold mb-6">
-                  Ponad 10 lat doświadczenia na <span className="text-[#D4AF37]">rynku nieruchomości</span>
+                  O nas
                 </h2>
 
                 <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                  Specjalizujemy się w sprzedaży i wynajmie nieruchomości w Bydgoszczy i okolicach.
-                  Nasz zespół to licencjonowani agenci z wieloletnim doświadczeniem, którzy przeprowadzili
-                  setki udanych transakcji.
+                  Nasz zespół to doświadczeni specjaliści, pasjonaci nieruchomości i eksperci, którzy naprawdę słuchają. Wspólnie tworzymy przestrzeń, w której liczy się zaufanie, skuteczność i indywidualne podejście do każdego klienta.
                 </p>
 
                 <div className="space-y-4 mb-8">
