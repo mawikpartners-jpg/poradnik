@@ -187,7 +187,8 @@ function App() {
       <section className="py-20 bg-black">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <div>
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
                 <div className="inline-block mb-4 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
                   <span className="text-[#D4AF37] text-sm font-semibold">O NAS</span>
                 </div>
@@ -229,6 +230,15 @@ function App() {
                     <div className="text-sm text-gray-400">Zadowolonych klientów</div>
                   </div>
                 </div>
+              </div>
+
+              <div className="relative">
+                <img
+                  src="/diqjy4sn42v6hxm9k26fjcpggy.avif"
+                  alt="Nasz zespół"
+                  className="w-full h-auto rounded-2xl border border-zinc-800 shadow-2xl"
+                />
+              </div>
             </div>
           </div>
         </div>
