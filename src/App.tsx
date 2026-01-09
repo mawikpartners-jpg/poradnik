@@ -327,6 +327,14 @@ function App() {
             {!isSubmitted ? (
               <>
                 <div className="text-center mb-12">
+                  <div className="mb-8 flex justify-center">
+                    <img
+                      src="/e-book_(10_stron).avif"
+                      alt="Okładka poradnika - Pierwsze 10 stron"
+                      className="w-64 h-auto rounded-xl shadow-2xl shadow-[#D4AF37]/20 border border-zinc-800 hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+
                   <div className="inline-block mb-4 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
                     <span className="text-[#D4AF37] text-sm font-semibold">POBIERZ TERAZ</span>
                   </div>
