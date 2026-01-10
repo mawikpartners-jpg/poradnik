@@ -234,7 +234,7 @@ function App() {
 
               <div className="relative">
                 <img
-                  src="/diqjy4sn42v6hxm9k26fjcpggy.avif"
+                  src="/diqjy4sn42v6hxm9k26fjcpggy copy.avif"
                   alt="Nasz zespół"
                   className="w-full h-auto rounded-2xl border border-zinc-800 shadow-2xl"
                 />
