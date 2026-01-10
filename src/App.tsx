@@ -122,7 +122,7 @@ function App() {
               Otrzymaj bezpłatnie pierwsze 10 stron naszego e-booka i poznaj podstawy sprzedaży każdego mieszkania.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
               <a href="#formularz" className="inline-flex items-center justify-center px-8 py-4 bg-[#D4AF37] text-black font-bold text-lg rounded-lg hover:bg-[#C9A961] transition-all transform hover:scale-105 shadow-lg shadow-[#D4AF37]/20 w-full sm:w-auto">
                 Pobierz darmowy poradnik
               </a>
@@ -130,6 +130,14 @@ function App() {
                 <Phone className="w-5 h-5 mr-2" />
                 Zadzwoń teraz
               </a>
+            </div>
+
+            <div className="flex justify-center">
+              <img
+                src="/e-book_(10_stron).avif"
+                alt="Okładka poradnika - Pierwsze 10 stron"
+                className="w-64 h-auto rounded-xl shadow-2xl shadow-[#D4AF37]/20 border border-zinc-800 hover:scale-105 transition-transform duration-300"
+              />
             </div>
           </div>
         </div>
@@ -327,14 +335,6 @@ function App() {
             {!isSubmitted ? (
               <>
                 <div className="text-center mb-12">
-                  <div className="mb-8 flex justify-center">
-                    <img
-                      src="/e-book_(10_stron).avif"
-                      alt="Okładka poradnika - Pierwsze 10 stron"
-                      className="w-64 h-auto rounded-xl shadow-2xl shadow-[#D4AF37]/20 border border-zinc-800 hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
-
                   <div className="inline-block mb-4 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
                     <span className="text-[#D4AF37] text-sm font-semibold">POBIERZ TERAZ</span>
                   </div>
