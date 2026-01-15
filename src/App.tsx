@@ -136,7 +136,7 @@ function App() {
               <img
                 src="/e-book_(10_stron).avif"
                 alt="Okładka e-booka - Pierwsze 10 stron"
-                className="w-80 md:w-96 h-auto rounded-xl shadow-2xl shadow-[#D4AF37]/20 border border-zinc-800 hover:scale-105 transition-transform duration-300 object-contain"
+                className="w-64 h-auto rounded-xl shadow-2xl shadow-[#D4AF37]/20 border border-zinc-800 hover:scale-105 transition-transform duration-300"
               />
             </div>
           </div>
@@ -500,8 +500,8 @@ function App() {
                   <Mail className="w-5 h-5 text-[#D4AF37] mt-1 mr-3 flex-shrink-0" />
                   <div>
                     <div className="font-semibold mb-1">Email</div>
-                    <a href="mailto:biurobestinvestments@gmail.com" className="text-gray-400 hover:text-[#D4AF37] transition-colors">
-                      biurobestinvestments@gmail.com
+                    <a href="mailto:kontakt@bestinvestments.pl" className="text-gray-400 hover:text-[#D4AF37] transition-colors">
+                      kontakt@bestinvestments.pl
                     </a>
                   </div>
                 </div>
