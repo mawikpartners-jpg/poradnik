@@ -280,7 +280,7 @@ function App() {
                 </div>
                 <div>
                   <div className="font-semibold">Miko Łaj</div>
-                  <div className="text-sm text-gray-400">2 reviews • 10 months ago</div>
+                  <div className="text-sm text-gray-400">Bydgoszcz</div>
                 </div>
               </div>
             </div>
