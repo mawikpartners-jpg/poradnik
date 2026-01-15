@@ -500,8 +500,8 @@ function App() {
                   <Mail className="w-5 h-5 text-[#D4AF37] mt-1 mr-3 flex-shrink-0" />
                   <div>
                     <div className="font-semibold mb-1">Email</div>
-                    <a href="mailto:kontakt@bestinvestments.pl" className="text-gray-400 hover:text-[#D4AF37] transition-colors">
-                      kontakt@bestinvestments.pl
+                    <a href="mailto:biurobestinvestments@gmail.com" className="text-gray-400 hover:text-[#D4AF37] transition-colors">
+                      biurobestinvestments@gmail.com
                     </a>
                   </div>
                 </div>
