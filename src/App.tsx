@@ -272,15 +272,15 @@ function App() {
                 ))}
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                "Miałam wcześniej naprawdę kiepskie doświadczenia z biurami nieruchomości, więc do Best Investments wchodziłam z dużą rezerwą. Już po pierwszej rozmowie z Panem Filipem poczułam spokój. Widać było, że zna się na rzeczy i naprawdę chce pomóc. W biurze często mijałam jeszcze Panią Agnieszkę i Pana Mateusza, którzy zawsze witali mnie uśmiechem, pytali czy czegoś nie potrzebuję, proponowali kawę. Bardzo przyjemna atmosfera, ciepło i od razu mój stres schodził. To było pierwsze biuro, przy którym poczułam, że ktoś naprawdę stoi po mojej stronie. Z całego serca polecam."
+                "Profesjonalizm, rzetelność i pomoc do samego końca, tak zapamiętam współpracę z panem Filipem Liberda z Best Investments, przy zakupie naszego mieszkania. Mimo wielu przeciwności losu, dzięki pomocy p. Filipa transakcja zakończyła się sukcesem. Dziękujemy i polecamy z całego ❤️"
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-[#D4AF37]/20 rounded-full flex items-center justify-center mr-3">
-                  <span className="text-[#D4AF37] font-bold">WW</span>
+                  <span className="text-[#D4AF37] font-bold">MŁ</span>
                 </div>
                 <div>
-                  <div className="font-semibold">Wiktoria Wilińska</div>
-                  <div className="text-sm text-gray-400">Bydgoszcz</div>
+                  <div className="font-semibold">Miko Łaj</div>
+                  <div className="text-sm text-gray-400">2 reviews • 10 months ago</div>
                 </div>
               </div>
             </div>
