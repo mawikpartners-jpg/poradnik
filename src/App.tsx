@@ -110,7 +110,7 @@ function App() {
         <div className="relative z-10 container mx-auto px-4 py-20 md:py-32">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block mb-6 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
-              <span className="text-[#D4AF37] text-sm font-semibold">DARMOWY PORADNIK</span>
+              <span className="text-[#D4AF37] text-sm font-semibold">DARMOWE 10 STRON E-BOOKA</span>
             </div>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
@@ -124,7 +124,7 @@ function App() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
               <a href="#formularz" className="inline-flex items-center justify-center px-8 py-4 bg-[#D4AF37] text-black font-bold text-lg rounded-lg hover:bg-[#C9A961] transition-all transform hover:scale-105 shadow-lg shadow-[#D4AF37]/20 w-full sm:w-auto">
-                Pobierz darmowy poradnik
+                Pobierz darmową część e-booka
               </a>
               <a href="#kontakt" className="inline-flex items-center justify-center px-8 py-4 border-2 border-[#D4AF37] text-[#D4AF37] font-bold text-lg rounded-lg hover:bg-[#D4AF37]/10 transition-all w-full sm:w-auto">
                 <Phone className="w-5 h-5 mr-2" />
@@ -135,7 +135,7 @@ function App() {
             <div className="flex justify-center">
               <img
                 src="/e-book_(10_stron).avif"
-                alt="Okładka poradnika - Pierwsze 10 stron"
+                alt="Okładka e-booka - Pierwsze 10 stron"
                 className="w-64 h-auto rounded-xl shadow-2xl shadow-[#D4AF37]/20 border border-zinc-800 hover:scale-105 transition-transform duration-300"
               />
             </div>
@@ -150,7 +150,7 @@ function App() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Co znajdziesz w <span className="text-[#D4AF37]">darmowych 10 stronach poradnika?</span>
+              Co znajdziesz w <span className="text-[#D4AF37]">darmowych 10 stronach e-booka?</span>
             </h2>
             <p className="text-xl text-gray-300 font-semibold">
               Zrób to sam i oszczędź pieniądze!
@@ -340,11 +340,11 @@ function App() {
                   </div>
 
                   <h2 className="text-3xl md:text-5xl font-bold mb-6">
-                    Otrzymaj <span className="text-[#D4AF37]">darmowy poradnik</span>
+                    Otrzymaj <span className="text-[#D4AF37]">darmowe 10 stron e-booka</span>
                   </h2>
 
                   <p className="text-xl text-gray-300">
-                    Wpisz swoje dane, a poradnik otrzymasz natychmiast na podany adres email
+                    Wpisz swoje dane, a e-book otrzymasz natychmiast na podany adres email
                   </p>
                 </div>
 
@@ -430,7 +430,7 @@ function App() {
                       disabled={isSubmitting}
                       className="w-full px-8 py-4 bg-[#D4AF37] text-black font-bold text-lg rounded-lg hover:bg-[#C9A961] transition-all transform hover:scale-105 shadow-lg shadow-[#D4AF37]/20 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                     >
-                      {isSubmitting ? 'Wysyłanie...' : 'Pobierz darmowy poradnik'}
+                      {isSubmitting ? 'Wysyłanie...' : 'Pobierz darmowe 10 stron e-booka'}
                     </button>
 
                     <p className="text-sm text-gray-400 text-center">
@@ -449,7 +449,7 @@ function App() {
                 <h3 className="text-3xl font-bold mb-4">Dziękujemy!</h3>
 
                 <p className="text-xl text-gray-300 mb-6">
-                  Poradnik został wysłany na Twój adres email. Sprawdź swoją skrzynkę odbiorczą
+                  E-book został wysłany na Twój adres email. Sprawdź swoją skrzynkę odbiorczą
                   (oraz folder spam, jeśli nie widzisz wiadomości).
                 </p>
 
