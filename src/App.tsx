@@ -136,7 +136,7 @@ function App() {
               <img
                 src="/e-book_(10_stron).avif"
                 alt="Okładka e-booka - Pierwsze 10 stron"
-                className="w-64 h-auto rounded-xl shadow-2xl shadow-[#D4AF37]/20 border border-zinc-800 hover:scale-105 transition-transform duration-300"
+                className="w-80 md:w-96 h-auto rounded-xl shadow-2xl shadow-[#D4AF37]/20 border border-zinc-800 hover:scale-105 transition-transform duration-300 object-contain"
               />
             </div>
           </div>
