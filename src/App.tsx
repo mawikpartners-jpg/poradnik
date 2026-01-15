@@ -191,143 +191,6 @@ function App() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section className="py-20 bg-black">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <div className="inline-block mb-4 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
-                  <span className="text-[#D4AF37] text-sm font-semibold">O NAS</span>
-                </div>
-
-                <h2 className="text-3xl md:text-5xl font-bold mb-6">
-                  O nas
-                </h2>
-
-                <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                  Nasz zespół to doświadczeni specjaliści, pasjonaci nieruchomości i eksperci, którzy naprawdę słuchają. Wspólnie tworzymy przestrzeń, w której liczy się zaufanie, skuteczność i indywidualne podejście do każdego klienta.
-                </p>
-
-                <div className="space-y-4 mb-8">
-                  <div className="flex items-start">
-                    <CheckCircle className="w-6 h-6 text-[#D4AF37] mt-1 mr-3 flex-shrink-0" />
-                    <p className="text-gray-300">Bezpłatna wycena nieruchomości przez certyfikowanych rzeczoznawców</p>
-                  </div>
-                  <div className="flex items-start">
-                    <CheckCircle className="w-6 h-6 text-[#D4AF37] mt-1 mr-3 flex-shrink-0" />
-                    <p className="text-gray-300">Kompleksowa obsługa prawna i pomoc w załatwianiu formalności</p>
-                  </div>
-                  <div className="flex items-start">
-                    <CheckCircle className="w-6 h-6 text-[#D4AF37] mt-1 mr-3 flex-shrink-0" />
-                    <p className="text-gray-300">Profesjonalna sesja zdjęciowa i marketing nieruchomości</p>
-                  </div>
-                  <div className="flex items-start">
-                    <CheckCircle className="w-6 h-6 text-[#D4AF37] mt-1 mr-3 flex-shrink-0" />
-                    <p className="text-gray-300">Negocjacje cenowe i pełna opieka do momentu podpisania aktu notarialnego</p>
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-2 gap-6">
-                  <div className="text-center">
-                    <div className="text-4xl font-bold text-[#D4AF37] mb-2">10</div>
-                    <div className="text-sm text-gray-400">Lat doświadczenia</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-4xl font-bold text-[#D4AF37] mb-2">98%</div>
-                    <div className="text-sm text-gray-400">Zadowolonych klientów</div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="relative">
-                <img
-                  src="/diqjy4sn42v6hxm9k26fjcpggy copy.avif"
-                  alt="Nasz zespół"
-                  className="w-full h-auto rounded-2xl border border-zinc-800 shadow-2xl"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="py-20 bg-zinc-900">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Co mówią <span className="text-[#D4AF37]">nasi klienci?</span>
-            </h2>
-            <p className="text-xl text-gray-300">
-              Setki zadowolonych klientów, którzy z sukcesem sprzedali swoje nieruchomości
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <div className="bg-black border border-zinc-800 rounded-xl p-8">
-              <div className="flex mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-[#D4AF37] fill-[#D4AF37]" />
-                ))}
-              </div>
-              <p className="text-gray-300 mb-6 leading-relaxed">
-                "Profesjonalizm, rzetelność i pomoc do samego końca, tak zapamiętam współpracę z panem Filipem Liberda z Best Investments, przy zakupie naszego mieszkania. Mimo wielu przeciwności losu, dzięki pomocy p. Filipa transakcja zakończyła się sukcesem. Dziękujemy i polecamy z całego ❤️"
-              </p>
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-[#D4AF37]/20 rounded-full flex items-center justify-center mr-3">
-                  <span className="text-[#D4AF37] font-bold">MŁ</span>
-                </div>
-                <div>
-                  <div className="font-semibold">Miko Łaj</div>
-                  <div className="text-sm text-gray-400">Bydgoszcz</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-black border border-zinc-800 rounded-xl p-8">
-              <div className="flex mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-[#D4AF37] fill-[#D4AF37]" />
-                ))}
-              </div>
-              <p className="text-gray-300 mb-6 leading-relaxed">
-                "Jestem bardzo zadowolony ze współpracy z biurem Best Investments. Przez kilka miesięcy próbowałem sprzedać swoją nieruchomość w Bydgoszczy i nic z tego nie wychodziło. Po zgłoszeniu się do Best Investments sprawa ruszyła z miejsca. Pełne zaangażowanie, nowoczesne podejście i konkretne działania. Mieszkanie sprzedało się w 2 tygodnie, i to o 25 000 zł drożej niż planowałem. Polecam każdemu."
-              </p>
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-[#D4AF37]/20 rounded-full flex items-center justify-center mr-3">
-                  <span className="text-[#D4AF37] font-bold">MA</span>
-                </div>
-                <div>
-                  <div className="font-semibold">Marek Antonowski</div>
-                  <div className="text-sm text-gray-400">Bydgoszcz</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-black border border-zinc-800 rounded-xl p-8">
-              <div className="flex mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-[#D4AF37] fill-[#D4AF37]" />
-                ))}
-              </div>
-              <p className="text-gray-300 mb-6 leading-relaxed">
-                "Z pełnym przekonaniem polecam to biuro nieruchomości. Profesjonalne podejście, doskonała komunikacja i pełne zaangażowanie od początku do końca. Jeśli szukasz rzetelnego pośrednika, to miejsce będzie strzałem w dziesiątkę."
-              </p>
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-[#D4AF37]/20 rounded-full flex items-center justify-center mr-3">
-                  <span className="text-[#D4AF37] font-bold">M</span>
-                </div>
-                <div>
-                  <div className="font-semibold">Marcel</div>
-                  <div className="text-sm text-gray-400">Bydgoszcz</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Form Section */}
       <section id="formularz" className="py-20 bg-black">
         <div className="container mx-auto px-4">
@@ -465,6 +328,143 @@ function App() {
                 </button>
               </div>
             )}
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="py-20 bg-zinc-900">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <div className="inline-block mb-4 px-4 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-full">
+                  <span className="text-[#D4AF37] text-sm font-semibold">O NAS</span>
+                </div>
+
+                <h2 className="text-3xl md:text-5xl font-bold mb-6">
+                  O nas
+                </h2>
+
+                <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+                  Nasz zespół to doświadczeni specjaliści, pasjonaci nieruchomości i eksperci, którzy naprawdę słuchają. Wspólnie tworzymy przestrzeń, w której liczy się zaufanie, skuteczność i indywidualne podejście do każdego klienta.
+                </p>
+
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-start">
+                    <CheckCircle className="w-6 h-6 text-[#D4AF37] mt-1 mr-3 flex-shrink-0" />
+                    <p className="text-gray-300">Bezpłatna wycena nieruchomości przez certyfikowanych rzeczoznawców</p>
+                  </div>
+                  <div className="flex items-start">
+                    <CheckCircle className="w-6 h-6 text-[#D4AF37] mt-1 mr-3 flex-shrink-0" />
+                    <p className="text-gray-300">Kompleksowa obsługa prawna i pomoc w załatwianiu formalności</p>
+                  </div>
+                  <div className="flex items-start">
+                    <CheckCircle className="w-6 h-6 text-[#D4AF37] mt-1 mr-3 flex-shrink-0" />
+                    <p className="text-gray-300">Profesjonalna sesja zdjęciowa i marketing nieruchomości</p>
+                  </div>
+                  <div className="flex items-start">
+                    <CheckCircle className="w-6 h-6 text-[#D4AF37] mt-1 mr-3 flex-shrink-0" />
+                    <p className="text-gray-300">Negocjacje cenowe i pełna opieka do momentu podpisania aktu notarialnego</p>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-2 gap-6">
+                  <div className="text-center">
+                    <div className="text-4xl font-bold text-[#D4AF37] mb-2">10</div>
+                    <div className="text-sm text-gray-400">Lat doświadczenia</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-4xl font-bold text-[#D4AF37] mb-2">98%</div>
+                    <div className="text-sm text-gray-400">Zadowolonych klientów</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="relative">
+                <img
+                  src="/diqjy4sn42v6hxm9k26fjcpggy copy.avif"
+                  alt="Nasz zespół"
+                  className="w-full h-auto rounded-2xl border border-zinc-800 shadow-2xl"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-20 bg-black">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold mb-6">
+              Co mówią <span className="text-[#D4AF37]">nasi klienci?</span>
+            </h2>
+            <p className="text-xl text-gray-300">
+              Setki zadowolonych klientów, którzy z sukcesem sprzedali swoje nieruchomości
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="bg-black border border-zinc-800 rounded-xl p-8">
+              <div className="flex mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 text-[#D4AF37] fill-[#D4AF37]" />
+                ))}
+              </div>
+              <p className="text-gray-300 mb-6 leading-relaxed">
+                "Profesjonalizm, rzetelność i pomoc do samego końca, tak zapamiętam współpracę z panem Filipem Liberda z Best Investments, przy zakupie naszego mieszkania. Mimo wielu przeciwności losu, dzięki pomocy p. Filipa transakcja zakończyła się sukcesem. Dziękujemy i polecamy z całego ❤️"
+              </p>
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-[#D4AF37]/20 rounded-full flex items-center justify-center mr-3">
+                  <span className="text-[#D4AF37] font-bold">MŁ</span>
+                </div>
+                <div>
+                  <div className="font-semibold">Miko Łaj</div>
+                  <div className="text-sm text-gray-400">Bydgoszcz</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-black border border-zinc-800 rounded-xl p-8">
+              <div className="flex mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 text-[#D4AF37] fill-[#D4AF37]" />
+                ))}
+              </div>
+              <p className="text-gray-300 mb-6 leading-relaxed">
+                "Jestem bardzo zadowolony ze współpracy z biurem Best Investments. Przez kilka miesięcy próbowałem sprzedać swoją nieruchomość w Bydgoszczy i nic z tego nie wychodziło. Po zgłoszeniu się do Best Investments sprawa ruszyła z miejsca. Pełne zaangażowanie, nowoczesne podejście i konkretne działania. Mieszkanie sprzedało się w 2 tygodnie, i to o 25 000 zł drożej niż planowałem. Polecam każdemu."
+              </p>
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-[#D4AF37]/20 rounded-full flex items-center justify-center mr-3">
+                  <span className="text-[#D4AF37] font-bold">MA</span>
+                </div>
+                <div>
+                  <div className="font-semibold">Marek Antonowski</div>
+                  <div className="text-sm text-gray-400">Bydgoszcz</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-black border border-zinc-800 rounded-xl p-8">
+              <div className="flex mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 text-[#D4AF37] fill-[#D4AF37]" />
+                ))}
+              </div>
+              <p className="text-gray-300 mb-6 leading-relaxed">
+                "Z pełnym przekonaniem polecam to biuro nieruchomości. Profesjonalne podejście, doskonała komunikacja i pełne zaangażowanie od początku do końca. Jeśli szukasz rzetelnego pośrednika, to miejsce będzie strzałem w dziesiątkę."
+              </p>
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-[#D4AF37]/20 rounded-full flex items-center justify-center mr-3">
+                  <span className="text-[#D4AF37] font-bold">M</span>
+                </div>
+                <div>
+                  <div className="font-semibold">Marcel</div>
+                  <div className="text-sm text-gray-400">Bydgoszcz</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
